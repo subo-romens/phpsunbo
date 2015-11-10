@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+.uploadmodel,.importdmodel {
+	height: 40px;
+	width: 100%;
+	line-hieght: 40px;
+}
+
+.btnaupload,.btnaimport {
+	margin-left: 15px;
+	margin-right: 5px;
+	padding: 4px 8px;
+	border: 1px solid #4197E4;
+	background-color: #4197E4;
+	border-radius: 3px;
+	color: #fff;
+}
+
+.uploadinfomodel {
+	width: 450px;
+	margin-top: 20px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.uploadinfomodel span {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.uploadinfomodel div {
+	float: right;
+	margin-top: -15px;
+	position: relative;
+	width: 200px;
+}
+
+.uploadabtn {
+	padding: 4px 8px;
+	border: 1px solid #4197E4;
+	background-color: #4197E4;
+	border-radius: 3px;
+	color: #fff;
+}
+
+.uploadabtn2 {
+	padding: 4px 8px;
+	border: 1px solid #A0C4E5;
+	background-color: #A0C4E5;
+	border-radius: 3px;
+	color: #fff;
+}

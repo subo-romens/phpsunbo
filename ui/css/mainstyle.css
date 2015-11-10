@@ -1,0 +1,245 @@
+
+.camera
+{
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.divtop
+{
+    min-width: 200px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f1f2f0;
+}
+
+
+.divtop_div1
+{
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    background-image: url(/images/top.png);
+}
+
+.divtop_div1_div1
+{
+    position: absolute;
+    width: 20%;
+    height: 30px;
+    text-align: left;
+    margin-left: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.divtop_div1_div2
+{
+    width: 100%;
+    height: 25px;
+    float: left;
+    text-align: center;
+}
+
+.divtop_div1_div2_span
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    text-shadow: none;
+}
+
+.divclear0
+{
+    width: 100%;
+    height: 0px;
+    clear: both;
+}
+
+.divclear1
+{
+    width: 100%;
+    height: 1px;
+    clear: both;
+}
+
+.divclear5
+{
+    width: 100%;
+    height: 5px;
+    clear: both;
+}
+
+.divclear10
+{
+    width: 100%;
+    height: 10px;
+    clear: both;
+}
+
+#footDiv
+{
+    width: 100%;
+    height: 50px;
+}
+
+.divfoot_div1
+{
+    background-color: #6b9e39;
+    width: 20%;
+    float: left;
+    cursor: pointer;
+    height: 51px;
+}
+
+
+
+.divfoot_div1_div
+{
+    width: 100%;
+    height: 20px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.divfoot_div_spqn
+{
+    font-size: 10px;
+    margin-top: 3px;
+    height: 15px;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: none;
+}
+
+
+.class_div_a
+{
+    color: #808080;
+    width: 80%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    margin-left: 5px;
+    border: 1px solid #d9d9d9;
+    background-repeat: repeat-x;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    vertical-align: top;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 11px;
+    padding-right: 11px;
+    background-color: #fff;
+    text-shadow: none;
+}
+
+.spancolor
+{
+    color: green;
+}
+
+.btnback img
+{
+    width: 15px;
+    height: 20px;
+}
+
+.btnbackOK img
+{
+    width: 15px;
+    height: 20px;
+}
+
+.btndivcl
+{
+    cursor: pointer;
+}
+
+.divinfo
+{
+    min-width: 200px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    overflow-y: auto;
+}
+
+.input_radius
+{
+    border-radius: 5px;
+    border: 1px solid #808080;
+    padding: 3px;
+}
+
+
+/*分享样式*/
+
+.show_div
+{
+    min-width: 200px;
+    max-width: 600px;
+    height: 130px;
+    padding: 20px;
+    /*border: 1px solid #6B9E39;*/
+    background-color: #eee;
+}
+
+.bdshare_div
+{
+    width: 55px;
+    cursor: pointer;
+    border: 1px solid #6B9E39;
+    float: left;
+    margin: 5px 1px 1px 5px;
+    padding: 15px 5px 25px 23px;
+    text-align: center;
+}
+
+.bds_sqq
+{
+    margin: 5px;
+}
+
+.home
+{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 10px;
+}
+
+.div_border
+{
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    -weblit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: white 0px 0px 2px;
+    -moz-box-shadow: white 0px 0px 2px;
+    box-shadow: white 0px 0px 2px;
+    background: white;
+}
+
+
+.img_right
+{
+    width: 8px;
+    height: 15px;
+    float: right;
+    padding-right: 5px;
+    padding-top: -10px;
+}

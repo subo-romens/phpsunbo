@@ -1,0 +1,139 @@
+form {
+	margin: 0;
+}
+
+textarea {
+	display: block;
+}
+
+.xubox_bottom {
+	text-align: right;
+	margin-top: 16px;
+	height: 28px;
+	line-height: 10px;
+	clear: both;
+	padding-top: 22px;
+	background: #D5D5D5;
+}
+
+.xubox_bottom a {
+	margin-left: 5px;
+	margin-right: 5px;
+	text-decoration: none;
+}
+
+.btn_save {
+	width: 50px;
+	height: 50px;
+	background-color: #6B99C9;
+	color: #F5F6F9;
+	margin-top: 15px;
+	padding: 8px 20px 8px 20px;
+}
+
+.btn_cl {
+	width: 50px;
+	height: 50px;
+	background-color: #A4ADB9;
+	color: #3E3C3B;
+	margin-top: 15px;
+	padding: 8px 20px 8px 20px;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	font-size: 12px;
+}
+
+#mapContainer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#tip {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding-left: 10px;
+	padding-right: 2px;
+	position: absolute;
+	min-height: 65px;
+	top: 10px;
+	font-size: 12px;
+	right: 10px;
+	border-radius: 3px;
+	overflow: hidden;
+	line-height: 20px;
+	/*min-width: 400px;*/
+}
+
+#tip input[type="button"] {
+	background-color: #0D9BF2;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	color: #fff;
+	font-size: 12px;
+	border-radius: 3px;
+	outline: none;
+	border: 0;
+	cursor: pointer;
+}
+
+#tip input[type="text"] {
+	height: 25px;
+	border: 1px solid #ccc;
+	padding-left: 5px;
+	border-radius: 3px;
+	outline: none;
+}
+
+#result1 {
+	/*max-height: 300px;*/
+}
+
+#lng {
+	height: 70px;
+	background-color: #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	font-size: 12px;
+	right: 10px;
+	bottom: 80px;
+	border-radius: 3px;
+	line-height: 30px;
+	border: 1px solid #ccc;
+}
+
+#lng input {
+	border: 1px solid #ddd;
+	height: 23px;
+	border-radius: 3px;
+	outline: none;
+	width: 80px;
+}
+
+.btnagpsok {
+	margin-left: 5px;
+	padding: 6px 10px;
+	border: 1px solid #0D9BF2;
+	background-color: #0D9BF2;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+}
+
+.btnagpsok:hover {
+	background-color: #8D9BF2;
+	border: 1px solid #8D9BF2;
+	color: #555;
+}

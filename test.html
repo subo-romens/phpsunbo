@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>接口测试</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.9.0/jquery.min.js"></script>
+</head>
+<body>
+  <span>Action</span><input type="text" id="action"/></br>
+    <span>Method</span><input type="text" id="method"/></br>
+    <span>Params</span>
+    <textarea id="params" cols="50" rows="20">
+    
+    </textarea>
+    </br>
+    <button onclick="testInter()">测试</button>
+</body>
+<script type="text/javascript">
+	  function testInter(){
+			  var action = $("#action").val();
+			  var method = $("#method").val();
+			  var params =$.trim($("#params").val());
+				$.ajax({
+					  type: 'get',
+						url: 'http://115.28.244.190/index.php/'+action,
+						data: {
+							 QueryType:method,
+							 Params:params
+						},
+						dataType : 'jsonp',  
+						jsonp:"jsoncallback",  
+
+		    		success: function(data){
+		    			alert(data);
+		    	  },
+		    	  error:function(){
+		    	  	alert("error");
+		    	  }
+				});
+			}
+</script>
+</html>
