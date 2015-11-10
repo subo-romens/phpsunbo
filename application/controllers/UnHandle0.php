@@ -10,7 +10,7 @@ class UnHandle extends Yjk_Controller {
 		$this->load->helper ( 'common_helper' );
 	}
 	
-	// 登录首页，拆分登录信息，并访问真实访问信息333333
+	// 登录首页，拆分登录信息，并访问真实访问信息3333332222
 	public function index() {
 		$type = $_POST ['QueryType'];
 		$params = $_POST ['Params'];
